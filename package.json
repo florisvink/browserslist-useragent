@@ -2,7 +2,7 @@
   "name": "browserslist-useragent",
   "version": "3.0.0",
   "description": "A utility to match a browselist query to browser user agents",
-  "main": "lib/index.js",
+  "main": "index.js",
   "repository": "https://github.com/pastelsky/browserslist-useragent",
   "author": "Shubham Kanodia <shubham.kanodia10@gmail.com>",
   "license": "MIT",

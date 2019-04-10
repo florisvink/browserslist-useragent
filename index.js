@@ -167,6 +167,10 @@ const parseBrowsersList = (browsersList) => {
 }
 
 const compareBrowserSemvers = (versionA, versionB, options) => {
+  
+  if (options.allowHigherVersions && versionB === 'TP')    
+    return true;
+
   const semverifiedA = semverify(versionA)
   const semverifiedB = semverify(versionB)
   let referenceVersion = semverifiedB
